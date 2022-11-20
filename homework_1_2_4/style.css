@@ -1,0 +1,39 @@
+body {
+	background-color: #29261721;
+}
+a,
+ul {
+	text-decoration: none;
+	list-style: none;
+}
+li a {
+	color: grey;
+
+	font-size: large;
+}
+
+ul.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+main {
+	width: 650px;
+	margin: 0 auto;
+}
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+img {
+	max-width: 100%;
+}
+
+input[type="submit"] {
+	border: none;
+	padding: 10px;
+	border-radius: 2px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}

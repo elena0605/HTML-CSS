@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Restaurant</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header id="main-heading">
+			<nav>
+				<ul class="flex">
+					<li>
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form action="" method="">
+				<h1>Dado Tea Lunch Special</h1>
+				<span>Monday through Friday</span><br />
+				<span>11am - 3pm</span><br />
+				<span>&dollar;9.95 plus tax</span>
+				<p>Includes sandwich,snack and drink.</p>
+				<section>
+					<fieldset>
+						<legend>Order Information</legend>
+						<p>
+							<label for="name"><strong>Name</strong></label>
+							<br />
+							<input type="text" id="name" name="username" />
+						</p>
+						<p>
+							<input type="radio" name="place" id="here" />
+							<label for="here">Here</label>
+							<br />
+
+							<input type="radio" name="place" id="go" />
+							<label for="go">To Go</label>
+						</p>
+					</fieldset>
+				</section>
+				<section>
+					<fieldset>
+						<legend>Sandwiches</legend>
+						<p>
+							<span><strong>Monday</strong></span
+							><br />
+
+							<input type="radio" name="food" id="mozzarella" />
+							<label for="mozzarella">Tomato Mozzarella</label>
+							<br />
+							<input type="radio" name="food" id="chicken" />
+							<label for="chicken">Chicken Salad</label>
+						</p>
+						<p>
+							<span><strong>Tuesday</strong></span
+							><br />
+							<input type="radio" name="food" id="greek_wrap" />
+							<label for="greek_wrap">Greek Salad Wrap</label><br />
+							<input type="radio" name="food" id="toto_wrap" />
+							<label for="toto_wrap">Toto Wrap</label>
+						</p>
+						<p>
+							<span><strong>Wednesday</strong></span
+							><br />
+							<input type="radio" name="food" id="pepper" />
+							<label for="pepper">Red Pepper Hummus</label><br />
+							<input type="radio" name="food" id="turkey" />
+							<label for="turkey">Roasted Turkey</label>
+						</p>
+						<p>
+							<span><strong>Thursday</strong></span
+							><br />
+							<input type="radio" name="food" id="hummus" />
+							<label for="hummus">Carrot-Ginger Hummus Wrap</label><br />
+							<input type="radio" name="food" id="egg" />
+							<label for="egg">Egg Salad</label>
+						</p>
+						<p>
+							<span><strong>Friday</strong></span
+							><br />
+							<input type="radio" name="food" id="dado" />
+							<label for="dado">Dado Wrap</label><br />
+							<input type="radio" name="food" id="tuna" />
+							<label for="tuna">Tuna Salad</label>
+						</p>
+						<hr />
+						<p>
+							<input type="checkbox" name="food" id="bread" />
+							<label for="bread">Gluten Free Bread (75&#162; extra)</label>
+						</p>
+					</fieldset>
+				</section>
+				<section>
+					<fieldset>
+						<legend>Snack</legend>
+						<p>
+							<span><strong>Snacks</strong></span
+							><br />
+							<input type="radio" name="food" id="apple" />
+							<label for="apple">Apple</label><br />
+							<input type="radio" name="food" id="banana" />
+							<label for="banana">Banana</label> <br />
+							<input type="radio" name="food" id="chips" />
+							<label for="chips">Potato Chips</label>
+						</p>
+					</fieldset>
+				</section>
+				<section>
+					<fieldset>
+						<legend>Drink</legend>
+						<p>
+							<label for="drinks"
+								><span><strong>Drinks</strong></span></label
+							><br />
+							<select id="drinks">
+								<option value="martini">Martini</option>
+								<option value="coke">Coke</option>
+								<option value="beer">Beer</option>
+								<option value="coffee">Coffee</option>
+								<option selected value="tea">Hot Black Tea - Keemun</option>
+							</select>
+						</p>
+						<hr />
+						<p>
+							<input type="checkbox" name="drink" id="large" />
+							<label for="large">Large Drink (75&#162; extra)</label>
+						</p>
+					</fieldset>
+				</section>
+				<p>
+					<input type="submit" value="Place Order" />
+				</p>
+			</form>
+		</main>
+		<footer>
+			<p><small>2022 &copy; Elena. All rights reserved.</small></p>
+		</footer>
+		<a href="#main-heading" style="color: grey">Back to top</a>
+	</body>
+</html>
