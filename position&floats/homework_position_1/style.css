@@ -1,0 +1,58 @@
+.wrapper {
+	margin: 200px auto;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	position: relative;
+	padding: 4px;
+}
+.rectangle-one {
+	background-color: hsl(37, 45%, 91%);
+	width: 80px;
+	height: 90px;
+}
+.rectangle-two {
+	background-color: hsl(37, 45%, 91%);
+	width: 80px;
+	height: 110px;
+	margin-top: 10px;
+}
+.square-blue {
+	background-color: blue;
+	width: 80px;
+	height: 83px;
+	margin-top: 7px;
+}
+.square-red {
+	background-color: red;
+	position: absolute;
+	width: 212px;
+	height: 210px;
+	top: 4px;
+	left: 30%;
+}
+.rectangle-three {
+	position: absolute;
+	background-color: hsl(37, 45%, 91%);
+	width: 192px;
+	height: 83px;
+	top: 220px;
+	left: 30%;
+}
+.rectangle-four {
+	position: absolute;
+	background-color: hsl(37, 45%, 91%);
+	width: 13px;
+	height: 35px;
+	top: 220px;
+	right: 4px;
+}
+
+.rectangle-yellow {
+	position: absolute;
+	background-color: yellow;
+	width: 13px;
+	height: 39px;
+	top: 263px;
+	right: 4px;
+}
