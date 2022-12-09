@@ -1,0 +1,187 @@
+.wrapper {
+	width: 900px;
+	margin: 200px auto;
+	border: 3px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* ITEM ONE */
+.rectangle_one {
+	width: 450px;
+	height: 150px;
+	background-color: rgb(221, 72, 56);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_one {
+	position: relative;
+	color: white;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 150px;
+	height: 20px;
+	display: block;
+}
+.btn_one::after {
+	content: "";
+	width: 150px;
+	height: 5px;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	background: linear-gradient(to right, white 50%, transparent 0);
+	background-size: 200% 100%;
+	background-position: right;
+	animation: makeItfadeIn 4s linear infinite;
+}
+.btn_one::before {
+	content: "";
+	width: 150px;
+	height: 5px;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	background: linear-gradient(to right, white 50%, transparent 0);
+	background-size: 200% 100%;
+	background-position: right;
+	animation: makeItfadeIn 4s linear infinite;
+}
+@keyframes makeItfadeIn {
+	100% {
+		background-position: left;
+	}
+}
+
+/* ITEM TWO */
+.rectangle_two {
+	width: 450px;
+	height: 150px;
+	background-color: rgb(232, 76, 60);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button {
+	color: white;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 150px;
+	height: 20px;
+	display: block;
+}
+.button {
+	background: linear-gradient(to right, white 50%, transparent 0);
+	background-size: 200% 100%;
+	background-position: right;
+	animation: makeItfadeIn 4s linear infinite;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+@keyframes makeItfadeIn {
+	100% {
+		background-position: left;
+	}
+}
+/* ITEM THREE */
+.rectangle_three {
+	width: 450px;
+	height: 150px;
+	background-color: rgb(232, 76, 60);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper_child {
+	display: flex;
+	justify-content: space-between;
+	width: fit-content;
+}
+.circle {
+	height: 9px;
+	width: 9px;
+	border-radius: 50%;
+}
+.circle-1 {
+	margin-right: 35px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.circle-2 {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.circle-3 {
+	position: relative;
+	left: -31px;
+	background-color: white;
+}
+
+.spin:hover {
+	animation: spin 0.4s linear;
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+/* ITEM FOUR */
+.rectangle_four {
+	width: 450px;
+	height: 150px;
+	background-color: rgb(221, 72, 56);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box {
+	background-color: rgba(255, 255, 255, 0.3);
+	height: 45px;
+	width: 45px;
+}
+.box {
+	background: linear-gradient(to right, white 50%, transparent 0);
+	background-size: 200% 100%;
+	background-position: right;
+	 animation: makeItfadeIn 4s linear infinite; 
+	background-color: rgba(255, 255, 255, 0.3);
+}
+@keyframes makeItfadeIn {
+	100% {
+		background-position: left;
+	}
+}
+
+.circle_four {
+	width: 9px;
+	height: 9px;
+	background: white;
+	position: relative;
+	border-radius: 50%;
+	top: -30px;
+	left: -56px;
+}
+
+@keyframes translating {
+	0% {
+		transform: translate(0, 0);
+	}
+	25% {
+		transform: translate(60px, 0);
+	}
+	50% {
+		transform: translate(60px, 60px);
+	}
+	75% {
+		transform: translate(0px, 60px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+.circle_four {
+	 animation: translating 3s linear infinite; 
+}
+
